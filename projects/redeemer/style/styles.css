@@ -1,0 +1,251 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Futura Bk BT;
+}
+
+a {
+    text-decoration: none;
+    color: #3f0e40;
+}
+
+main {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    /* margin-top: 50px; */
+    /* padding: 2%; */
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 10px #4401491a,
+                -3px -3px 10px #e404f41a; */
+
+}
+
+form {
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* padding: 5%; */
+    margin: auto;
+}
+
+
+.imgbox {
+    width: 270px;
+    height: 270px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.imgbox img {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+
+input[type="text"], input[type="password"] {
+    height: 44px;
+    width: 96%;
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+input[type="file"] {
+
+    height: 200px;
+    width: 96%;
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+
+}
+
+
+button {
+    width: 100%;
+    height: 55px;
+    background-color: #FEECFF;
+    border: 1px solid #9801A2;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 5px; */
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 460px) {
+    main, .profile {
+        width: 370px;
+    }
+
+
+}
+
+
+
+/* Dashboard styles */
+
+.header {
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 370px;
+    margin: auto;
+    /* padding: 10px 0 10px 0; */
+    /* padding: 1%;
+    padding-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 2px 2px 3px #ddd9d9, 
+                inset -2px -2px 3px #ddd9d9;
+  border-radius: 50%;
+  color: white;
+  float: left;
+  background-image: url("img/user.jpg");
+  cursor: pointer;
+}
+
+
+
+.menu {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    float: right;
+    cursor: pointer;
+
+}
+
+.menu-items {
+    width: 370px;
+    height: 100vh;
+    position: absolute;
+    top: 90px;
+    /* border: 1px solid red; */
+    background-color: #3f0e40;
+    color: #ddd9d9;
+    display: none;
+}
+
+.menu-items ul {
+    /* display: flex; */
+    padding-left: 25px;
+    margin: 0;
+}
+
+.menu-items ul a {
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.menu-items ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    display: flex;
+    /* border: 1px solid red; */
+    /* height: 80px; */
+}
+
+
+.icons {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-right: 15px;
+
+}
+
+.menu-items ul li p {
+    font-size: 1.2rem;
+    margin: 10px 0px;
+}
+
+.ad {
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.balance {
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: 30px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fae9ff7e;
+     /* background-color: #a0f59d7e; */
+    border-radius: 5px;
+    /* align-content: center; */
+    box-shadow: 0.5px 0.5px 1px #e3d7f1, 
+                -0.5px -0.5px 1px #e3d7f1;
+}
+
+.balance:hover {
+    box-shadow: 1px 1px 5px #e3d7f1, 
+                -1px -1px 5px #e3d7f1;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+
+}
+
+.detail {
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-top: 20px;
+
+}
+
+
+
+/* account page specific styles */
+.back {
+
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 2px 2px 3px #ddd9d9, 
+                inset -2px -2px 3px #ddd9d9;
+  border-radius: 50%;
+  color: white;
+  /* float: left; */
+  background-image: url("../img/closeicon.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 30px 25px;
+
+}
+
+/* transactions page specific styles */
+.status {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.5px 0.5px 1px #e3d7f1, 
+                -0.5px -0.5px 1px #e3d7f1;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    
+}

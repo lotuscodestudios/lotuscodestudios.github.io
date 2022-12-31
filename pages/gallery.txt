@@ -1,0 +1,37 @@
+
+         <!-- gallery -->
+        <div class="section">
+
+            <h1>Gallery</h1>
+            <!-- <p>Connections</p> -->
+
+        </div>
+        <!-- tech stack -->
+        <div class="portfolio">
+            <div class="portfolio-box" style="background-color:  #e2a2e361;">
+                <h1>Brand Identity</h1>
+
+                <p style="text-align: justify; line-height: 1.2rem;">
+                    
+                    
+                    Impression by rae is a Beauty, Personal care, and
+                    Health Products brand.
+                    The Nude color was used to represent the neutrality in which 
+                    the brand pursues in having a healthy skin, the color were derived in monochromatic 
+                    combinations to potray a neutral quality.
+                    The creative design was applied to derive the brands symbol as monograms were combined
+                    with organic shapes to form the shape of an oil which is a key ingredient in every skincare product.
+            
+                </p>
+
+                <button><a href="/pages/about.html">Connect</a></button>
+            </div>
+
+
+            <div class="portfolio-img" style="padding: 0;">
+        
+                    <!-- <img src="img/ibrfolio.jpg" alt="impression by rae"/> -->
+            </div>
+
+
+        </div>
