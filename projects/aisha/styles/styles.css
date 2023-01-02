@@ -2,6 +2,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: Futura Bk BT;
+    background-color: white;
 }
 
 @font-face {
@@ -49,9 +50,10 @@ button {
     /* background-color: #FEECFF;
     border: 1px solid #9801A2; */
     background-color: #fb1f4c;
+    border: 3px solid #ffeef1;
     color: white;
     outline: none;
-    border: none;
+    /* border: none; */
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 1px 3px 10px #a4052554;
@@ -67,9 +69,17 @@ button:hover {
                 inset -1px -1px 10px #ffa5a6;
 }
 
+button a {
+  color: white;
+}
+
 .secbtn {
     background-color: #ffeef1;
-    /* border: 1px solid #fb1f4c; */
+    border: 3px solid #fb1f4b1c;
+    color: #fb1f4c;
+}
+
+.secbtn a {
     color: #fb1f4c;
 }
 
@@ -288,6 +298,8 @@ input[type="text"], input[type="password"] {
   display: flex;
   cursor: pointer;
   margin-bottom: 15px;
+  background-color: rgb(249, 248, 248);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .foodimg {
@@ -315,4 +327,76 @@ input[type="text"], input[type="password"] {
 .foodtext p {
   margin-top: 5px;
   font-size: 0.7rem;
+}
+
+
+
+/* Account page specific styles */
+.back {
+
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 2px 2px 3px #ddd9d9, 
+                inset -2px -2px 3px #ddd9d9;
+  border-radius: 50%;
+  color: white;
+  /* float: left; */
+  background-image: url("../img/closeicon.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 30px 25px;
+
+}
+
+.imgbox {
+    width: 220px;
+    height: 220px;
+    border: 3px solid #fb1f4b1c;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 7px #5201111e;
+                /* -0.5px -0.5px 1px #e3d7f1; */
+    cursor: pointer;
+}
+
+.imgbox img {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.balance {
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: 30px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffeef1;
+     /* background-color: #a0f59d7e; */
+    border-radius: 5px;
+    /* align-content: center; */
+    box-shadow: 0.5px 0.5px 1px #e3d7f1, 
+                -0.5px -0.5px 1px #e3d7f1;
+}
+
+.balance:hover {
+    box-shadow: 1px 1px 5px #e3d7f1, 
+                -1px -1px 5px #e3d7f1;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+
+}
+
+.detail {
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-top: 20px;
+
 }

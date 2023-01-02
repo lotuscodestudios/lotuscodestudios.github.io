@@ -94,7 +94,7 @@ button {
 
 
 
-/* Dashboard styles */
+/* Dashboard Specific styles */
 
 .header {
     /* border: 1px solid red; */
@@ -220,7 +220,7 @@ button {
 
 
 
-/* account page specific styles */
+/* Account page specific styles */
 .back {
 
   width: 50px;
@@ -236,6 +236,8 @@ button {
   margin: 30px 25px;
 
 }
+
+
 
 /* transactions page specific styles */
 .status {
