@@ -341,7 +341,7 @@ input[type="text"], input[type="password"] {
   border-radius: 50%;
   color: white;
   /* float: left; */
-  background-image: url("../img/closeicon.svg");
+  background-image: url("../img/back.svg");
   background-repeat: no-repeat;
   cursor: pointer;
   margin: 30px 25px;
