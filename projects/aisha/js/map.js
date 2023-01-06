@@ -4,7 +4,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
 
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: lat, lng: lng},
-    zoom: 2
+    zoom: 16
   });
 
   var marker = new google.maps.Marker({
@@ -12,3 +12,4 @@ navigator.geolocation.getCurrentPosition(function(position) {
     map: map
   });
 });
+
