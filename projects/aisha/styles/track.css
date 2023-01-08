@@ -39,13 +39,14 @@
    border-radius: 50%;
    border: 1px solid red; 
    background-image: url("../img/c.jpg");
+   margin-right: 15px;
 
 }
 
-.courier-img img {
+/* .courier-img img {
    width: 100%;
    height: 100%;
-}
+} */
 
 .courier-details {
    width: 70%;

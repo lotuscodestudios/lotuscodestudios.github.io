@@ -1,0 +1,32 @@
+
+.counter-balance {
+    justify-content: space-between;
+    cursor: default;
+    /* margin-left: -30px; */
+
+}
+
+
+.counter {
+    width: 24px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.control {
+    height: 24px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+}
+
+.control p{
+    margin: 0;
+    padding: 0;
+    color: rgb(66, 255, 91);
+    font-weight: 600;
+}
