@@ -6,12 +6,12 @@ html, body {
 
 a {
     text-decoration: none;
-    color: #3f0e40;
+    /* color: white; */
 }
 
 main {
     width: 90%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
     /* margin-top: 50px; */
     /* padding: 2%; */
@@ -20,6 +20,39 @@ main {
     /* box-shadow: 3px 3px 10px #4401491a,
                 -3px -3px 10px #e404f41a; */
 
+}
+
+#main {
+    width: 90%;
+    /* height: 100vh; */
+    margin: auto;
+    /* margin-top: 50px; */
+    /* padding: 2%; */
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 10px #4401491a,
+                -3px -3px 10px #e404f41a; */
+
+}
+
+.landing-image {
+   width: 360px;
+   margin: auto;
+   margin-top: 100px;
+   /* border: 1px solid red;  */
+}
+
+.landing-image img {
+   width: 100%;
+}
+
+.landing-text {
+    text-align: left;
+    margin: 30px 0;
+}
+
+.landing-text h1 {
+    color: #3f0e40;
 }
 
 form {
@@ -33,7 +66,7 @@ form {
 .imgbox {
     width: 270px;
     height: 270px;
-    /* border: 1px solid red; */
+    border: 5px solid #FEECFF;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 50px;
@@ -74,14 +107,26 @@ input[type="file"] {
 button {
     width: 100%;
     height: 55px;
-    background-color: #FEECFF;
-    border: 1px solid #9801A2;
+    background-color: #3f0e40;
+    color: white;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
     /* padding: 5px; */
     font-size: 1rem;
     font-weight: 600;
+}
+
+button a {
+    color: white;
+}
+
+.secbtn {
+
+    background-color: #FEECFF;
+    border: 1px solid #9801A2;
+    color: #3f0e40;
+
 }
 
 @media screen and (min-width: 460px) {
@@ -99,7 +144,7 @@ button {
 .header {
     /* border: 1px solid red; */
     height: 80px;
-    width: 370px;
+    width: 100%;
     margin: auto;
     /* padding: 10px 0 10px 0; */
     /* padding: 1%;
@@ -107,11 +152,29 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.08);
+    
 }
 
+.header_wrap, .app_bar_wrap {
+    /* border: 1px solid red; */
+    width: 370px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 15px; */
+
+}
+
+
+
 .profile {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   box-shadow: inset 2px 2px 3px #ddd9d9, 
                 inset -2px -2px 3px #ddd9d9;
   border-radius: 50%;
@@ -119,8 +182,12 @@ button {
   float: left;
   background-image: url("img/user.jpg");
   cursor: pointer;
+  /* background-image: url("../img/lotus-01.jpg"); */
 }
 
+.profile img {
+    width: 100%;
+}
 
 
 .menu {
@@ -134,13 +201,24 @@ button {
 
 .menu-items {
     width: 370px;
-    height: 100vh;
+    /* height: 100%; */
+    /* height: 700px; */
     position: absolute;
     top: 90px;
+    /* left: 0; */
     /* border: 1px solid red; */
     background-color: #3f0e40;
     color: #ddd9d9;
-    display: none;
+    /* display: none; */
+    transition: all 0.5s cubic-bezier(0, 0, 0.5, 1);
+    opacity: 0;
+}
+
+.menu-items.open {
+    /* left: 350px; */
+    opacity: 1;
+    /* left: 0; */
+
 }
 
 .menu-items ul {
@@ -179,8 +257,9 @@ button {
 
 .ad {
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 5px;
+    box-shadow: 1px 3px 10px #63026524;
 }
 
 .balance {
@@ -196,6 +275,7 @@ button {
     /* align-content: center; */
     box-shadow: 0.5px 0.5px 1px #e3d7f1, 
                 -0.5px -0.5px 1px #e3d7f1;
+    /* cursor: pointer; */
 }
 
 .balance:hover {

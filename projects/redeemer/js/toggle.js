@@ -2,12 +2,13 @@
 $(document).ready(
     function () {
 
-        $(".menu-items").hide()
+        // $(".menu-items").hide()
         
         $(".menu").click(
 
             function (){
-                $(".menu-items").toggle("fast")
+                // $(".menu-items").toggle("fast")
+                $('.menu-items').toggleClass('open');
             }
 
         )

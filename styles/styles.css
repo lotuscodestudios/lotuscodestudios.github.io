@@ -23,6 +23,9 @@ html, body {
     height: 70px;
     margin: auto;
      /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -69,15 +72,23 @@ html, body {
 
 
 #site-id {
-    width: 166px;
-    /* height: 70px; */
-    /* border: 1px solid rebeccapurple; */
+    width: 40px;
+    height: 40px;
+    border: 1px solid rebeccapurple;
     /* margin: 1.2%; */
     margin: 10px;
     float: left;
     cursor: pointer;
+    /* background-image: url("../img/lotuslogo-01.svg"); */
 }
 
+#site-id img {
+    width: 100%;
+}
+
+#site-id:hover {
+    transform: rotateZ(45deg);
+}
 
 
 .pry-nav  {
@@ -288,6 +299,7 @@ button a {
                  -2px -2px 3px #3f0e4015;
     text-align: center;
     /* cursor: pointer; */
+    box-sizing: content-box;
 
 }
 
