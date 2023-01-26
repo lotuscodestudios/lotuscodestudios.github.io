@@ -72,9 +72,7 @@
                             c0.45,0,0.81,0.36,0.81,0.81v3.06C44.12,28.23,43.76,28.59,43.31,28.59z"/>
                         <path class="st0" d="M43.31,36.48H20.38c-0.45,0-0.81-0.36-0.81-0.81v-3.06c0-0.45,0.36-0.81,0.81-0.81h22.93
                             c0.45,0,0.81,0.36,0.81,0.81v3.06C44.12,36.12,43.76,36.48,43.31,36.48z"/>
-                </svg>
-
-
+                </svg>''
 
 
             </div>
@@ -90,6 +88,8 @@
 
     </div>
 
+    <div class="padding" style="height: 70px;"></div>
+
     <div id="main">
 
 
@@ -99,13 +99,15 @@
         <div class="landing">
 
             <div class="landing-text">
-                <h1>We are a network of creative minds driven by passion to gear the human society towards technological advancement</h1>
+                <h1>Simple Digital Services just for your Brand</h1>
+
+                <p>At Lotus studio we are driven by research to gear the human civilization towards technological advancement</p>
                 <button><a href="/pages/about.html">Connect</a></button>
 
             </div>
 
             <div class="landing-art">
-                <img src="img/landing-art-01.svg" alt="lotus navigation">
+                <img src="img/lotus3d.png" alt="lotus navigation">
             </div>
 
         </div>
@@ -363,7 +365,7 @@
                 <div id="foot-id">
                     <img src="img/lotus-studios-light-02.svg" alt="lotus studios">
                 </div>
-                <p>Designed and Developed by lotus studios with &#128151 &copy 2022</p>
+                <p>Designed and Developed by Lotus Studios | All rights reserved &copy <span class="year">202 </span> </p>
             
      </div>
 
@@ -373,4 +375,14 @@
 </body>
 
   <script language="javascript" src="js/toggle.js"></script>
+
+  <script>
+
+    let year = new Date().getFullYear();
+    let placeholder = document.querySelector('.year');
+    placeholder.textContent = year.toString();
+
+  </script>
+
+
 </html>

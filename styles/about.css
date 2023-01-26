@@ -16,6 +16,11 @@
     /* border: 1px solid red; */
 }
 
+
+.staff {
+    box-sizing: content-box;
+}
+
 .staff-img {
     /* border: 1px solid rebeccapurple; */
     height: 230px;
