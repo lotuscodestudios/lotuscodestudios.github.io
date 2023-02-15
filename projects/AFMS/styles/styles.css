@@ -33,6 +33,12 @@ body {
   /* font-weight: 400; */
 }
 
+@font-face {
+  font-family: "Oswald";
+  src: url("../media/Oswald-Regular.ttf") format("truetype");
+}
+
+
 
 #main {
   width: 90%;
