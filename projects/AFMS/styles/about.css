@@ -1,0 +1,42 @@
+
+
+.section.about {
+  width: 100%;
+  display: flex;
+  /* margin-top: 100px ; */
+}
+
+
+
+.people.about {
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.people.about img {
+  width: 300px;
+  /* height: 300px; */
+
+}
+
+.expander {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+}
+
+.expander img {
+    width: 48px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.428;
+    text-align: justify;
+}

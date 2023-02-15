@@ -22,7 +22,7 @@ html, body {
     width: 95%;
     height: 70px;
     margin: auto;
-     /* border: 1px solid rebeccapurple; */
+     border: 1px solid rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,9 +54,10 @@ html, body {
 
 #main {
     width: 95%;
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
     /* height: 760px; */
     margin: auto;
+    margin-bottom: 60px;
    
 }
 
@@ -93,8 +94,10 @@ html, body {
 
 .pry-nav  {
     width: 463px;
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
+    margin: auto;
     display: none;
+    /* float: right; */
 }
 
 .pry-nav.open  {
@@ -105,19 +108,17 @@ html, body {
 
  
 .pry-nav ul {
-     /* width: 60%; */
-     /* height: 460px; */
+
     /* border: 1px solid red; */
-    /* float: right; */
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     text-align: center;
+    padding: 0;
 }
 
 .pry-nav ul li {
-     /* width: 10%; */
-     /* height: px; */
+
     /* border: 1px solid red; */
     cursor: pointer;
     text-align: left;
@@ -125,27 +126,22 @@ html, body {
 
 
 /* store functionality */
-/* .store {
+.store {
     width: 40px;
     height: 40px;
     border: 1px solid rebeccapurple;
     float: right;
-} */
+}
 
 /* hamburger menu */
 #ham {
     width: 80px;
     height: 100%;
     float: right;
-    /* border: 1px solid red; */
-    display: none;
+    border: 1px solid red;
+    /* display: none; */
     cursor: pointer;
 }
-
-
-                             
-
-/* ham  svg animation */
 
 
 
