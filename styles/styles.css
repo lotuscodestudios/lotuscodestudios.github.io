@@ -217,7 +217,7 @@ html, body {
 @media screen and (max-width: 760px) {
 
     .landing {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: auto;
     }
 
