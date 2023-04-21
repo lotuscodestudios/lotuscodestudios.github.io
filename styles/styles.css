@@ -22,7 +22,7 @@ html, body {
     width: 95%;
     height: 70px;
     margin: auto;
-     border: 1px solid rebeccapurple;
+     /* border: 1px solid rebeccapurple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,8 +54,7 @@ html, body {
 
 #main {
     width: 95%;
-    border: 1px solid rebeccapurple;
-    /* height: 760px; */
+    /* border: 1px solid rebeccapurple; */
     margin: auto;
     margin-bottom: 60px;
    
@@ -71,11 +70,21 @@ html, body {
 
 }
 
+/* for large screens */
+@media only screen and (min-width: 1200px) {
+    
+  #main, .footer{
+      width: 1120px;
+  }
+
+}
+
+
 
 #site-id {
     width: 40px;
     height: 40px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     /* margin: 1.2%; */
     margin: 10px;
     float: left;
@@ -94,10 +103,9 @@ html, body {
 
 .pry-nav  {
     width: 463px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     margin: auto;
     display: none;
-    /* float: right; */
 }
 
 .pry-nav.open  {
@@ -125,24 +133,15 @@ html, body {
 }
 
 
-/* store functionality */
-.store {
-    width: 40px;
-    height: 40px;
-    border: 1px solid rebeccapurple;
-    float: right;
-}
-
 /* hamburger menu */
 #ham {
     width: 80px;
     height: 100%;
     float: right;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: none; */
     cursor: pointer;
 }
-
 
 
 /* for small screens */
@@ -175,35 +174,55 @@ html, body {
 
 }
 
+/* for large screens */
+@media screen and (min-width: 760px) {
+    
+    .pry-nav {
+       display: block;
+    }
 
-/* LANDING PAGE */
+}
+
+
+/* LANDING PAGE: responsiveness == gracefulDegredation */
 
 .landing {
     /* height: 460px; */
     /* border: 1px solid rebeccapurple; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 .landing-text {
-    /* width: 49%; */
+    width: 49%;
     padding: 1%;
     box-sizing: border-box;
     /* border: 1px solid rebeccapurple; */
 }
 
 .landing-art {
-    /* width: 49%; */
-    /* height: 300px; */
-    /* border: 1px solid rebeccapurple; */
+    background-color: #d99ce5;
 }
+
+.landing-art img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* for small screens */
 @media screen and (max-width: 760px) {
 
+    .landing {
+        flex-direction: column;
+        margin: auto;
+    }
+
     .landing-art {
-        display: none;
+        /* display: none; */
     }
     
    .landing-text {
@@ -214,30 +233,8 @@ html, body {
 }
 
 
-/* for large screens */
-@media screen and (min-width: 760px) {
-
-    .landing-art {
-        /* display: none; */
-        width: 460px;
-    }
-    
-   .landing-text {
-       width: 460px;
-        /* width: 100%;
-        text-align: center; */
-    }
-
-    .pry-nav {
-  
-        display: block;
-    }
-
-}
-
-
 button {
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #3f0e40;
     color: #fbe6ff;
@@ -261,7 +258,7 @@ button a {
 
 
 .landing-text button {
-    width: 400px;
+    /* width: 400px; */
 }
 
 .section {
