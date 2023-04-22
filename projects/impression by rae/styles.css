@@ -138,8 +138,9 @@ button {
 /* main */
 #main {
     width: 90%;
-    border: 1px solid red;
-    margin: auto;
+    border: 1px solid greenyellow;
+    /* margin: auto; */
+    
 }
 
 /* section header */
