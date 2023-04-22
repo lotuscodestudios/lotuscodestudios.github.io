@@ -55,7 +55,7 @@ table {
     height: 80px;
     /* padding: 16px; */
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.092);
     position: fixed;
     top: 0px;
@@ -94,8 +94,39 @@ table {
 .ham-nav {
     width: 40px;
     height: 40px;
-    /* border: 1px solid red; */
+    cursor: pointer;
+    border: 1px solid white;
+    /* opacity: 0; */
 }
+
+.ham-nav:hover {
+    border: 1px solid #3f2923;
+    transition: all 300ms ease-in 50ms;
+
+}
+
+/* mobile nav */
+.mobile-nav {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    color: white;
+    background-color: #3f2923;
+    position: absolute;
+    top: 79px;
+    left: 60px;
+    display: none;
+}
+
+.mobile-nav li {
+    width: 100%;
+    padding: 30px;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+}
+
 
 .pad {
     height: 50px;
@@ -110,9 +141,14 @@ table {
 }
 
 .landing-text {
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: 15px;
     /* border: 1px solid red; */
+}
+
+.landing-text h1 {
+    color: #3f2923;
+       
 }
 
 h1 {
@@ -137,10 +173,12 @@ button {
 
 /* main */
 #main {
-    width: 90%;
-    border: 1px solid greenyellow;
-    /* margin: auto; */
-    
+    width: 93%;
+    /* padding: 60px; */
+    /* border: 1px solid greenyellow; */
+    margin: auto;
+    box-sizing: border-box;
+
 }
 
 /* section header */
@@ -154,8 +192,8 @@ p{
 }
 
 .product {
-    /* width: 360px; */
-    width: 100%;
+    width: 360px;
+    /* width: 100%; */
     /* height: 400px; */
     /* border: 1px solid red; */
     margin: 30px auto;
