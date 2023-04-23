@@ -19,7 +19,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	/* vertical-align: baseline; */
-    font-family: Century Gothic;
+    /* font-family: Century Gothic; */
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -46,6 +46,10 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: "DeVinne Txt BT";
+  src: url("media/DeVinne\ Txt\ BT.ttf") format("truetype");
+}
 
 /* Main Styles start here */
 
