@@ -55,7 +55,7 @@ table {
     height: 80px;
     /* padding: 16px; */
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.092);
     position: fixed;
     top: 0px;
@@ -117,6 +117,12 @@ table {
     left: 60px;
     display: none;
 }
+
+.mobile-nav a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .mobile-nav li {
     width: 100%;
