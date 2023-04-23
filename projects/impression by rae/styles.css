@@ -19,7 +19,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	/* vertical-align: baseline; */
-    /* font-family: Century Gothic; */
+    font-family: Century Gothic;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -49,6 +49,10 @@ table {
 @font-face {
   font-family: "DeVinne Txt BT";
   src: url("media/DeVinne\ Txt\ BT.ttf") format("truetype");
+}
+
+:root {
+    --pry-color: #261300; 
 }
 
 /* Main Styles start here */
@@ -115,7 +119,7 @@ table {
     height: 100vh;
     /* border: 1px solid red; */
     color: white;
-    background-color: #3f2923;
+    background-color: var(--pry-color);
     position: absolute;
     top: 80px;
     left: 60px;
@@ -127,6 +131,16 @@ table {
     color: white;
 }
 
+.tab {
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: 1px solid white; */
+}
+
+.tab img {
+    display: block;
+    margin-left: 266px;
+}
 
 .mobile-nav li {
     width: 100%;
@@ -162,7 +176,8 @@ table {
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: 20pt;
+    line-height: 28px;
     font-weight: bolder;
     margin: 10px 0;
     color: #3f2923;
@@ -276,7 +291,7 @@ p{
 
 .footer {
     /* width:100%; */
-    background-color: #3f2923;
+    background-color: var(--pry-color);
     /* height: 500px; */
     padding: 16px;
 }
