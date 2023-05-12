@@ -1,0 +1,420 @@
+html, body {
+
+    font-family: Adobe Gurmukhi;
+
+
+}
+
+body {
+  /* border: 1px solid greenyellow; */
+  /* overflow: hidden; */
+}
+
+
+
+:root {
+  /* color-scheme: dark; */
+  /* make the header and footer transparent colors
+  so as to adapt to the rook color scheme */
+}
+
+
+/* header */
+#header {
+    
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 5px 5px #3f0e4013;
+    /* margin-top: 0px;
+    margin-bottom: 15px; */
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   background-color: #fbf9fb;
+   /* display: flex; */
+   z-index: 3;
+
+}
+
+.header-pad {
+  margin-top: 60px;
+}
+
+
+.header_wrap {
+    width: 99%;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.site-id {
+    /* width: 200px; */
+    height: 57px;
+    float: left;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.site-id img {
+    width: 100%;
+    /* height: 57px; */
+    height: 100%;
+}
+
+.pry-nav {
+       width: 40%;
+       /* border: 1px solid rebeccapurple;  */
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+       /* padding: 10px 0; */
+       /* box-sizing: content-box; */
+       display: none;
+}
+
+
+
+.pry-nav ul {
+       width: 100%;
+       display: flex;
+       list-style-type: none;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0;
+       margin: 0;
+       /* border: 1px solid rebeccapurple;  */
+}
+
+
+.pry-nav ul li {
+  cursor: pointer;
+}
+
+
+
+/* search tab styles */
+.search-tab {
+  width: 300px;
+  height: 40px;
+  /* border: 1px solid rebeccapurple; */
+  margin: auto 15px; 
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"] {
+  /* float: right; */
+  width: 100%;
+  /* height: 92%; */
+  padding: 10px;
+}
+
+
+/* profile */
+.profile {
+  width: 40px;
+  height: 40px;
+  box-shadow: inset 2px 2px 3px #ddd9d9, 
+                inset -2px -2px 3px #ddd9d9;
+  border-radius: 50%;
+
+  /* margin-top: 10px;
+  margin-right: 10px; */
+
+  color: white;
+  background-image: url("../img/user.jpg");
+  cursor: pointer;
+}
+
+
+
+
+.app-box, .nav-box {
+    width: 40px;
+    height: 40px;
+    /* float: right; */
+    /* border: 1px solid rebeccapurple;  */
+}
+
+.app-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.auth {
+  width: 220px;
+  display: flex;
+  /* height: 100%; */
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-left: 10px;
+}
+
+
+
+button {
+  width: 100%;
+  height: 55px;
+  background-color: #1d1d1d;
+  border-radius: 3px;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  border: none;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-weight: 800;
+
+}
+
+.secbtn {
+  background-color: #f2f2f2;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
+
+.secbtn:hover {
+  background-color: #1d1d1d;
+  color: #f2f2f2;
+  border: 2px solid #fbfbfb;
+  transition: all ease 150ms;
+}
+
+
+.authbtn {
+  width: 47%;
+  margin: 0px;
+  height: 40px;
+  border: 2px solid #fbfbfb;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .pry-nav {
+      width: 70vw;
+      height: 100vh;
+      background-color: #1d1d1d;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 30px;
+      /* border: 1px solid red;  */
+      position: absolute;
+      top: 80px;
+      left: 30vw;
+      color: white;
+    }
+    
+    .pry-nav ul {
+        flex-direction: column;
+        /* border: 1px solid rebeccapurple; */
+        align-items: flex-start; 
+    }
+
+    .pry-nav ul li {
+      margin: 15px 0;
+    }
+
+    .auth {
+      flex-direction: column;
+      margin: 0;
+    }
+
+    .authbtn {
+      width: 100%;
+      margin: 15px auto ;
+    }
+
+  
+}
+
+.landing {
+    width: 98%;
+    max-width: 1440px;
+    /* border: 1px solid red;  */
+    margin: auto;
+    /* margin-top: 60px; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+}
+
+.padding{
+    height:50px ;
+    background-color: #67374f;
+}
+
+
+
+.landing-box {
+    
+    width: 90%;
+    /* height: 100%; */
+    /* height: 480px; */
+    height: fit-content;
+    /* border: 1px solid rebeccapurple;  */
+    margin: auto;
+    /* margin-bottom: 2%; */
+    overflow: hidden;
+
+
+
+}
+
+
+
+.landing-box button {
+  width: 100%;
+  height: 55px;
+  background-color: #1d1d1d;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  color: #f2f2f2;
+  cursor: pointer;
+  
+}
+
+.landing-box button:hover {
+  transition: all ease 300ms;
+  background-color: #efeaea;
+  outline: none;
+  border: 2px solid #1d1d1d;
+  color: #1d1d1d;
+  
+}
+
+.landing-box img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+
+
+/* tablet */
+@media screen and (min-width: 768px) {
+
+
+    .landing {
+        flex-direction: row;
+        /* justify-content: space-between; */
+        height: auto;
+
+    }
+
+
+    .landing-box {
+        width: 48.6%;
+        height: 500px;
+        /* border: 1px solid rebeccapurple;  */
+    }
+
+    .landing-box button {
+         width: 60%;
+      /* height: 100%; */
+}
+
+
+
+
+}
+
+#main {
+  width: 96.7%;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.section-tab h1 {
+    text-align: center;
+    /* color: #b57394; */
+    /* margin-top: 0px; */
+}
+
+
+
+.c-action {
+    float: right;
+}
+
+
+#wrapper {
+  width: 90%;
+    /* border: 1px solid #fb1f4c; */
+    margin: auto;
+    /* margin-top: 30px; */
+    overflow: hidden;
+}
+
+.service h2, .service p {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+
+ .service {
+    width: 2000px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border: 1px solid blue; */
+    height: 350px;
+    position: relative;
+    /* overflow: hidden; */
+    /* slide trigger */
+    /* right: 650px; */
+    /* margin: auto; */
+ }
+
+ .service.nxt {
+   right: 650px;
+ }
+
+
+.footer {
+    /* width: 100%; */
+    /* height: 400px; */
+    background-color: #222020;
+    border: 1px solid rebeccapurple; 
+}
+
+.footer-wrap{
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-wrap{
+      flex-direction: column;
+  }
+
+}
+
+.footer-section {
+  color: white;
+}
+
+.footer-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin: 20px 0;
+}
+
+
+
+
+
