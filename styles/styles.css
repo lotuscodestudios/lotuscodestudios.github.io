@@ -48,9 +48,6 @@ html, body {
 	backdrop-filter: blur(10px)
 }
 
-/* for large screens not fucntioning to reset backdrop */
-
-
 
 #main {
     width: 95%;
