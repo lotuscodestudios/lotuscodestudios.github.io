@@ -38,7 +38,7 @@ a {
 .landing-image {
    width: 254px;
    margin: auto;
-   margin-top: 120px; 
+   /* margin-top: 50px;  */
 }
 
 .landing-text {
