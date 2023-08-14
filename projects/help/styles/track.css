@@ -19,7 +19,7 @@
 }
 
 .courier {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 5px;
     height: 80px;
     margin-bottom: 15px;
@@ -37,7 +37,7 @@
    width: 40px;
    height: 40px;
    border-radius: 50%;
-   border: 1px solid red; 
+   /* border: 1px solid red;  */
    background-image: url("../img/c.jpg");
    margin-right: 15px;
 

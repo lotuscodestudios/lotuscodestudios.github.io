@@ -1,7 +1,7 @@
 :root {
-  --pry-color: #025e14;
-  --fade-pry-color: #025e1432;
-  --sec-color: #e0fbe5;
+  --pry-color: #fb1f4c;
+  --fade-pry-color: #fb1f4b0c;
+  --sec-color: #fb1f4b32;
 }
 
 html, body {
@@ -273,7 +273,7 @@ input[type="text"], input[type="password"] {
 
 .ad {
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
@@ -291,6 +291,7 @@ input[type="text"], input[type="password"] {
 /* dashboard specific styles */
 .mic-box {
   width: 200px;
+  cursor: pointer;
 }
 
 .foodtab {
