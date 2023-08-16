@@ -1,0 +1,28 @@
+
+:root {
+  --greenfade: #e1f9eb51;
+  --light-green: #d4e9e2;
+  --prycolor: #036734;
+}
+
+html {
+    background-color: var(--prycolor);
+}
+
+.detail-header {
+    background-color: var(--prycolor);
+    color: white;
+}
+
+.bookmark {
+    width: 30px;
+    height: 30px;
+    /* background-image: url("../img/book.svg"); */
+    background-size: cover;
+}
+
+.bookmark img {
+    width: 100%;
+    height: 100%;
+
+}

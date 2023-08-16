@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order</title>
+    <link type="text/css" href="../styles/styles.css" rel="stylesheet"/>
+    <link type="text/css" href="../styles/track.css" rel="stylesheet"/>
+   <link rel="stylesheet" href="../js/leaflet/leaflet.css" />
+   <script src="../js/leaflet/leaflet.js"></script>
+</head>
+<body>
+
+        
+    <div class="back" onclick="history.back()"></div>
+
+    <div id="main">
+
+        <div id="map">
+        </div>
+
+        <div class="map-function">
+                
+                    <div class="courier">
+
+                        <div class="courier-img">
+                            <!-- <img src="../img/avatar.jpg" alt="courier icon"/> -->
+                        </div>
+
+                        <div class="courier-details">
+                            <h3>Mark Gusen</h3>
+                            <p>Food Courier</p>
+                        </div>
+
+                        <div class="courier-icon">
+                            <img src="../img/call.svg" alt="courier icon"/>
+                        </div>
+
+                    </div>
+
+                    <div class="track-order">
+
+                        <div class="order-status">
+                            <img src="../img/order.svg" alt="order received"/>
+                            <h6>received</h6>
+                        </div>
+
+                        <div class="order-status">
+                            <img src="../img/pending.svg" alt="in transit"/>
+                            <h6>transit</h6>
+                        </div>
+
+                        <div class="order-status">
+                            <img src="../img/check.svg" alt="delivered successfully"/>
+                            <h6>success</h6>
+                        </div>
+
+                    </div>
+            
+                
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHc4WdvykJsAGKYB2xiDpP5NP9JKp1i5I"></script>
+
+<script src="../js/map.js"></script>
+
+</html>
