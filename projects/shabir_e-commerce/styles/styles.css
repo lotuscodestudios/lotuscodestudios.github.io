@@ -2,6 +2,7 @@
   --greenfade: #e1f9eb51;
   --light-green: #d4e9e2;
   --prycolor: #036734;
+  --seccolor: #D4E9E2;
 }
 
 
@@ -9,7 +10,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: Poppins;
-    background-color: white;
+    /* background-color: white; */
 }
 
 /* @font-face {
@@ -57,14 +58,14 @@ button {
     
     /* background-color: #FEECFF;
     border: 1px solid #9801A2; */
-    background-color: #fb1f4c;
+    background-color: var(--prycolor);
     /* border: 3px solid #ffeef1; */
     color: white;
     outline: none;
     border: none;
     margin-bottom: 15px;
     border-radius: 30px;
-    box-shadow: 1px 3px 10px #0367333a;
+    /* box-shadow: 1px 3px 10px #0367333a; */
     font-size: 12pt;
     /* font-weight: 600; */
     cursor: pointer;
@@ -296,6 +297,7 @@ input[type="text"], input[type="password"] {
 }
 
 .foodtab {
+  width: 100%;
   height: 134px;
   /* box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.08);
@@ -312,6 +314,8 @@ input[type="text"], input[type="password"] {
   /* border: 3px solid rgb(255, 255, 255); */
 }
 
+
+
 .foodtab button {
   width: 98px;
   height: 40px;
@@ -325,18 +329,26 @@ input[type="text"], input[type="password"] {
 }
 
 .imgtext-container {
+  width: 100%;
   display: flex;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .foodimg {
-  width: 104px;
-  height: 100%;
+  width: 120px;
+  /* height: 100%; */
   /* border: 1px solid red; */
   background-image: url("../img/icedes.jpg");
   background-size: cover;
   border-radius: 10px;
-  margin-right: 15px;
+  margin-right: 10px;
+
+}
+
+.classifier {
+  width: 70%;
+  /* border: 1px solid red; */
 
 }
 
@@ -399,7 +411,7 @@ input[type="text"], input[type="password"] {
 }
 
 .pricebuy {
-  width: 235px;
+  /* width: 100%; */
   height: fit-content;
   display: flex;
   justify-content: space-between;
@@ -485,3 +497,4 @@ input[type="text"], input[type="password"] {
     margin-top: 20px;
 
 }
+
