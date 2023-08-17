@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment</title>
+    <title>Order Summary</title>
     <link type="text/css" href="../styles/styles.css" rel="stylesheet"/>
     <link type="text/css" href="../styles/detail.css" rel="stylesheet"/>
     <link type="text/css" href="../styles/payment.css" rel="stylesheet"/>
@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="header ">
+        <div class="header ">
 
         <div class="header_wrap">
              <!-- <a href="../index.html"> <div id="siteid"><img src="../img/site-id.png"/></div> </a> -->
@@ -33,7 +33,7 @@
 
             </div>
 
-            <h3>Checkout</h3>
+            <h3>Order Summary</h3>
 
 
             <div class="header-functions">
@@ -60,43 +60,78 @@
     <div class="head_pad payment-head-pad">
 
     </div>
-
+    
     <div class="total-section">
-        <h3>Total</h3>
-        <p>$1699|409 kg CO2</p>
+        <h3>Order Confirmed</h3>
+        <!-- <p>$1699|409 kg CO2</p> -->
     </div>
 
     <div class="payment-box">
 
         <div class="shipping-details">
             <div class="address-box">
-                <h3>Shipping details</h3>
+                <h3>Items in your order</h3>
                 <div class="address">
-                    <h4>235 Crescent Rd,<br/> Seattle WA, V63</h4>
+                    <img src="../img/02.jpg"/>
                 </div>
             </div>
 
             <div class="carbon-footprint">
-                <h3>Carbon</h3>
-                <p>15 kg CO2</p>
+                <p><b>Apple MacbookPro 16'</b><br/>Total: <b>$1699</b></p>
+                
             </div>
         </div>
+
         <hr/>
+
+        <div class="carbon-impact">
+            <p><b>Total Carbon Impact</b></p>
+            <p><b>409 kg CO2</b></p>
+        </div>
+
+        <div class="carbon-impact">
+            <p>Total Carbon Impact</p>
+            <p>409 kg CO2</p>
+        </div>
+
+        <div class="carbon-impact">
+            <p>Total Carbon Impact</p>
+            <p>409 kg CO2</p>
+        </div>
+
+        <div class="carbon-impact">
+            <p>Total Carbon Impact</p>
+            <p>409 kg CO2</p>
+        </div>
+
+        <hr/>
+
+        
+        <div class="shipping-details">
+            <div class="address-box">
+                <h3>shipping details</h3>
+                <div class="address" style="opacity: 0;">
+                    <img height="43px" src="../img/02.jpg"/>
+                </div>
+            </div>
+
+            <div class="carbon-footprint">
+                <h4 style="opacity: 0.5;">235 Crescent Rd,<br/> Seattle WA, V63</h4>
+                
+            </div>
+        </div>
+
         <h3>Payment details</h3>
 
         <div class="payment-method">
-            <div class="method-image">
+            <!-- <div class="method-image">
                 <img src="../img/visa.jpg" />
-            </div>
+            </div> -->
 
-            <button class="mtd-btn">Add new Payment Method</button>
+            <!-- <button class="mtd-btn">Add new Payment Method</button> -->
         </div>
 
-        <div class="pin-box">
-            <span class="pin"></span>
-            <span class="pin"></span>
-            <span class="pin"></span>
-            <span class="pin"></span>
+        <div class="pin-box" style="width: 40%;">
             <span class="pin"></span>
             <span class="pin"></span>
             <span class="pin"></span>
@@ -106,22 +141,27 @@
             <h3>0</h3>
             
         </div>
-        <a href="#"><h3>Terms and Condition</h3></a>
+
+        <!-- <a href="#"><h3>Terms and Condition</h3></a>
 
         <form>
             <p>Accept(Learn More) </p>
             <input type="checkbox" name="#" value="#" checked="checked" id="check" />
-        </form>
+        </form> -->
 
-        <div class="btn-box">
+        <div class="btn-box sum">
             <button onclick="history.back()" class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
             <!-- <button class="secbtn detail-btn">Go back</button> -->
-            <button onclick="window.location.href='summary.html'" class="detail-btn">Pay Now</button>
+            <button onclick="window.location.href='menu.html'" class="detail-btn">Continue Shopping</button>
         
         </div>
+        
+        <center><u><p>Email me this receipt</p></u></center>
 
     </div>
 
-    
+
+
+
 </body>
 </html>

@@ -1,0 +1,95 @@
+/* .payment-header */
+
+
+
+.total-section {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+.payment-head-pad {
+    /* border: 1px solid red; */
+    height: 83px;
+    margin: 0;
+}
+
+.payment-box {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.shipping-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address{
+    width: fit-content;
+    background-color: #7D7C7B;
+    color: white;
+    padding: 5px 20px;
+}
+
+.address h4 {
+    color: #D4E9E2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.payment-method {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mtd-btn {
+    width: 70%;
+    background-color: #7D7C7B;
+    color: white;
+}
+
+.pin-box {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9a9a9a13;
+    border: 5px solid #9a9a9a51;
+    padding: 10px;
+    
+}
+
+.pin {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+#check {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form p {
+    font-size: 16pt;
+}
+

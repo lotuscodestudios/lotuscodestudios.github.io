@@ -1,0 +1,17 @@
+.carbon-impact {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.carbon-impact p {
+    margin: 0;
+}
+
+.sum {
+    margin-top: 20px;
+}
+
+.back-sec {
+    background-image: url("../img/ArrowCircleLeft2.svg");
+}
