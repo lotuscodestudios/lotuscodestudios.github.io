@@ -13,10 +13,10 @@ html, body {
     /* background-color: white; */
 }
 
-/* @font-face {
+@font-face {
   font-family: "Futura Bk BT";
-  src: url("../img/FuturaBookBT.ttf") format("truetype");
-} */
+  src: url("../img/Poppins-Regular.ttf") format("truetype");
+}
 
 
 
@@ -43,12 +43,16 @@ a {
    margin-top: 50px; 
 }
 
+.landing-image img {
+  width: 100%;
+}
+
 .landing-text {
     text-align: center;
 }
 
 .landing-text h1 {
-    color: #fb1f4c;
+    color: var(--prycolor);
 }
 
 
@@ -207,7 +211,7 @@ input[type="text"], input[type="password"] {
   left: 800px;
   /* left: 20vw; */
   
-  background-color: #ffeef1;
+  background-color: #d4e9e2ae;
   /* margin: -50px 0 0 -50px; */
   /* display: none; */
   /* margin-left: -300px; */

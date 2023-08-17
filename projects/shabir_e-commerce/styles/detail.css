@@ -82,19 +82,28 @@ html {
 
 .coin-box p {
     margin: 0;
-    
 }
 
 
 
 .coin {
+    width: 70px;
+    height: 70px;
     background-color:  #FF9334;
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     border-radius: 50%;
     margin-bottom: 11px;
     font-size: 24pt;
     font-weight: bolder;
     color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin p {
+    margin: auto;
 }
 
 .product-size-tab {
@@ -170,3 +179,44 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+
+
+   /* Style the tab buttons */
+            .tablink {
+                background-color: #77777749;
+                color: white;
+                font-weight: bold;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                margin: 0;
+                /* padding: 14px 16px; */
+                font-size: 10pt;
+                /* width: 25%; */
+            }
+
+            /* Change background color of buttons on hover */
+            .tablink:hover {
+                /* background-color: #d5f6e5;
+                color: white; */
+            }
+
+            /* Set default styles for tab content */
+            .tabcontent {
+                /* color: rgb(155, 25, 25); */
+                display: none;
+            /* padding: 50px; */
+            /* text-align: center; */
+            }
+
+            /* Style each tab content individually */
+            #small {
+                /* background-color:red; */
+                
+            }
+            
+            /* #medium {background-color:green;} */
+            /* #large {background-color:blue;} */
+            /* #extra {background-color:orange;} */
