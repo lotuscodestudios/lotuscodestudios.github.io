@@ -82,36 +82,258 @@
             <div class="product-size-container">
                 <p>Choose Product Size</p>
                 <div class="product-size-tab">
-                    <ul>
-                        <li>Small</li>
-                        <li>Medium</li>
-                        <li>Large</li>
-                        <li>Extra larger</li>
-                    </ul>
+                    <button class="tablink" onclick="openCity('small', this, 'green', 3)" id="defaultOpen">Small</button>
+                    <button class="tablink" onclick="openCity('medium', this, 'green', 6)">Medium</button>
+                    <button class="tablink" onclick="openCity('large', this, 'green', 11)">Large</button>
+                    <button class="tablink" onclick="openCity('extra', this, 'green', 12)">Extra large</button> 
                 </div>
             </div>
 
-            <p class="tax"><b>3.45+</b> TAX</p>
-            <h2>Carbon footprint</h2>
 
-            <div class="selection-box">
-                <p>Your Selection industry <br/> average</p>
-                <div class="index">
-                    <p>0.21</p>
+            <div id="small" class="tabcontent">
+
+                <p class="tax"><b>3.45+</b> TAX</p>
+                <h2>Carbon footprint</h2>
+
+                <div class="selection-box">
+                    <p>Your Selection industry <br/> average</p>
+                    <div class="index">
+                        <p>0.21</p>
+                    </div>
+                </div>
+
+                <p class="carbon-info">
+                    Your Starbucks produce 0.21kg carbon foot print<br/>
+                    compare to the industry average, your reward is 3 green coin.
+                </p>
+
+
+                <div class="btn-box">
+                    <button onclick="history.back()" class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
+                    <!-- <button class="secbtn detail-btn">Go back</button> -->
+                    
+                    <button onclick="window.location.href='payment.html'" class="detail-btn">Place order $4.12</button>
+                
+                </div>
+
+
+            </div>
+
+            <div id="medium" class="tabcontent">
+
+                <p class="tax"><b>6.45+</b> TAX</p>
+                <h2>Carbon footprint</h2>
+
+                <div class="selection-box">
+                    <p>Your Selection industry <br/> average</p>
+                    <div class="index">
+                        <p>0.41</p>
+                    </div>
+                </div>
+
+                <p class="carbon-info">
+                    Your Starbucks produce 0.21kg carbon foot print<br/>
+                    compare to the industry average, your reward is 6 green coin.
+                </p>
+
+
+                <div class="btn-box">
+                    <button onclick="history.back()" class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
+                    <!-- <button class="secbtn detail-btn">Go back</button> -->
+                    
+                    <button onclick="window.location.href='payment.html'" class="detail-btn">Place order $7.12</button>
+                
+                </div>
+
+
+
+
+            </div>
+
+            <div id="large" class="tabcontent">
+
+                <p class="tax"><b>10.45+</b> TAX</p>
+                <h2>Carbon footprint</h2>
+
+                <div class="selection-box">
+                    <p>Your Selection industry <br/> average</p>
+                    <div class="index">
+                        <p>0.61</p>
+                    </div>
+                </div>
+
+                <p class="carbon-info">
+                    Your Starbucks produce 0.21kg carbon foot print<br/>
+                    compare to the industry average, your reward is 6 green coin.
+                </p>
+
+
+                <div class="btn-box">
+                    <button onclick="history.back()" class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
+                    <!-- <button class="secbtn detail-btn">Go back</button> -->
+                    
+                    <button onclick="window.location.href='payment.html'" class="detail-btn">Place order $11.12</button>
+                
+                </div>
+
+
+            </div>
+
+            <div id="extra" class="tabcontent">
+                <p class="tax"><b>12.45+</b> TAX</p>
+                <h2>Carbon footprint</h2>
+
+                <div class="selection-box">
+                    <p>Your Selection industry <br/> average</p>
+                    <div class="index">
+                        <p>0.91</p>
+                    </div>
+                </div>
+
+                <p class="carbon-info">
+                    Your Starbucks produce 0.21kg carbon foot print<br/>
+                    compare to the industry average, your reward is 6 green coin.
+                </p>
+
+
+                <div class="btn-box">
+                    <button onclick="history.back()" class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
+                    <!-- <button class="secbtn detail-btn">Go back</button> -->
+                    <button onclick="window.location.href='payment.html'" class="detail-btn">Place order $13.12</button>
+                
                 </div>
             </div>
 
-            <p class="carbon-info">
-                Your Starbucks produce 0.21kg carbon foot print<br/>
-                compare to the industry average, your reward is 3 green coin.
-            </p>
+            <style>
+                /* Style the tab buttons */
+            .tablink {
+                background-color: #77777749;
+                color: white;
+                font-weight: bold;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                margin: 0;
+                /* padding: 14px 16px; */
+                /* font-size: 17px; */
+                /* width: 25%; */
+            }
+
+            /* Change background color of buttons on hover */
+            .tablink:hover {
+                /* background-color: #d5f6e5;
+                color: white; */
+            }
+
+            /* Set default styles for tab content */
+            .tabcontent {
+                /* color: rgb(155, 25, 25); */
+                display: none;
+            /* padding: 50px; */
+            /* text-align: center; */
+            }
+
+            /* Style each tab content individually */
+            #small {
+                /* background-color:red; */
+                
+            }
+            
+            /* #medium {background-color:green;} */
+            /* #large {background-color:blue;} */
+            /* #extra {background-color:orange;} */
+            </style>
 
 
-            <div class="btn-box">
-                <button class="secbtn detail-btn img-btn"><img src="../img/backarrow.svg" width="16px" height="16px" style="margin-right: 15px;"/>Go back</button>
-                <!-- <button class="secbtn detail-btn">Go back</button> -->
-                <button class="detail-btn">Place order $4.12</button>
-            </div>
+            <script>
+                function openCity(cityName, elmnt, color, num) {
+                // Hide all elements with class="tabcontent" by default */
+                var i, tabcontent, tablinks;
+                // let number = 0
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+
+                let coinValue = document.querySelector(".coin");
+
+
+                // Remove the background color of all tablinks/buttons
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                }
+
+                // Show the specific tab content
+                document.getElementById(cityName).style.display = "block";
+
+
+                // Add the specific color to the button used to open the tab content
+                elmnt.style.backgroundColor = color;
+                coinValue.textContent = num;
+                }
+
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click(); 
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             
         </div>

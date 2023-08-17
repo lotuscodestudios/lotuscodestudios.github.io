@@ -73,8 +73,8 @@ button {
 }
 
 button:hover {
-    box-shadow: inset 1px 1px 10px #ddd9d9, 
-                inset -1px -1px 10px #ffa5a6;
+    /* box-shadow: inset 1px 1px 10px #ddd9d9, 
+                inset -1px -1px 10px #ffa5a6; */
 }
 
 button a {
