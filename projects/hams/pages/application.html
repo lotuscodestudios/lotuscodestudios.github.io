@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Aisha Account</title>
+    <link type="text/css" href="../styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="main" style="margin-top: 50px;">
+
+        <h1>Apply</h1>
+        <p>Make an application for hostel accomodation</p>
+
+        <form action="#" method="get">
+<!-- 
+            <div class="imgbox">
+                <img src="../img/lotus-01.jpg" alt="Profile Image"/>
+            </div> -->
+            
+            
+            <div class="photoframe" style="height: 200px;">
+                
+                <input type="file" name="photo" id="id_photo" required>
+                <img id="photoPreview" src="#" alt="Preview" style="max-width: 100%; max-height: 300px; display: none;">
+            </div>
+            <center>
+                <p>Upload ID Card</p>
+            </center>
+            
+            <input type="text" name="mail" placeholder="Phone Number">
+            <!-- <input type="text" name="name" placeholder="Matriculation number"> -->
+            <p><input type="checkbox"/> Male <input type="checkbox"/> Female</p>
+
+            
+
+        </form>
+        
+        <button onclick="window.location.href='success.html'">Make Application</button>
+        <p> Go to  | <a href="dashboard.html" style="color: #088ccd;">Dashboard</a> </p>
+
+    </div>
+    
+</body>
+</html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const photoInput = document.getElementById('id_photo');  // Replace 'id_photo' with the actual ID of the photo input field
+        const photoPreview = document.getElementById('photoPreview');
+
+        photoInput.addEventListener('change', function() {
+            const file = photoInput.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    photoPreview.src = e.target.result;
+                    photoPreview.style.display = 'block';
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                photoPreview.src = '';
+                photoPreview.style.display = 'none';
+            }
+        });
+    });
+</script>
